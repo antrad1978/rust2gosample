@@ -1,0 +1,13 @@
+[package]
+name = "rust2go_sample"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]  # produce a static library for Go
+
+[profile.release]
+debug = false
+
+[dependencies]
+rust2go = "0.4.1"            # adjust to the actual version you installed

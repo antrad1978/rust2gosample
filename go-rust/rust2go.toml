@@ -1,0 +1,3 @@
+[generator]
+src = "rust/src/lib.rs"
+dst = "go/gen.go"
